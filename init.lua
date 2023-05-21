@@ -52,3 +52,5 @@ vim.cmd[[
 	:hi LineNr guibg=none guifg=#FFFFFF	
 	let ayucolor = "dark"
 ]]
+
+vim.cmd.event = "BufAdd"
